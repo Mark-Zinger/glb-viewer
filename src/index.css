@@ -1,0 +1,19 @@
+body, #root {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.upload_button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: block;
+  height: 40px;
+}
+
+.upload_button input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
